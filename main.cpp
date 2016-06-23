@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    Graph g;
+    Graph_Dijkstra g;
     g.add_vertex('A', {{'B', 7}, {'C', 8}});
     g.add_vertex('B', {{'A', 7}, {'F', 2}});
     g.add_vertex('C', {{'A', 8}, {'F', 6}, {'G', 4}});
