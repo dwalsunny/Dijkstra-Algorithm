@@ -10,3 +10,7 @@ How to build/use:
   4.  You must compile your program with the gnu c++ 11 compiler:
           g++ -std=c++11 your_program.cpp
   5.  main.cpp has an example on how to use Dijkstra's graph algortihm
+
+Improvements:
+  1.  Separate the interface and implementation into Dijkstra_Algorithm.h and Dijkstra_Algorithm.cpp files respectivley
+
