@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Graph
+class Graph_Dijkstra
 {
     unordered_map<char, const unordered_map<char, int>> vertices;
     
